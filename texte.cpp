@@ -4,18 +4,19 @@
 #define N 10
 
 using namespace std;
-/*17. Escrever um algoritmo que lê 2 vetores X(10) e Y(10) . 
-Crie, a seguir, um vetor Z que seja a) a diferença entre X e Y; b)
+/*17. Escrever um algoritmo que lÃª 2 vetores X(10) e Y(10) . 
+Crie, a seguir, um vetor Z que seja a) a diferenÃ§a entre X e Y; b)
  a soma entre X e Y; c) o produto entre X e Y; Escreva o vetor Z a
-  cada cálculo.*/
+  cada cÃ¡lculo.*/
 int main(int argc, char** argv){
 	
 	//vetores
 	int x[N];
 	int y[N];
 	int z[N];
+	/*maicon teste*/
 	
-	//função para gera numeros aleatorior
+	//funÃ§Ã£o para gera numeros aleatorior
 	srand((unsigned)time(NULL));
 	
 	//alimentando vetor "x"
@@ -40,14 +41,14 @@ int main(int argc, char** argv){
 		cout <<"["<< y[i] <<"] ";
 	}
 	
-	//calculando a diferença de x por y
+	//calculando a diferenÃ§a de x por y
 	for(int i = 0; i < N; i++){
 		z[i] = x[i] - y[i];	
 	}
 	
 
 	cout << "\n\n";
-	//imprimindo a diferença
+	//imprimindo a diferenÃ§a
 	cout << "A DIFERENCA ENTRE X E Y: \n"; 
 	for(int i = 0; i < N; i++){
 		cout <<"["<< z[i] <<"] ";
