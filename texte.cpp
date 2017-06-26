@@ -14,7 +14,7 @@ int main(int argc, char** argv){
 	int x[N];
 	int y[N];
 	int z[N];
-	/*maicon teste*/
+	/*maicon 123/
 	
 	//função para gera numeros aleatorior
 	srand((unsigned)time(NULL));
